@@ -21,7 +21,7 @@ imgAbs.getSearch()
 	})
 
 
-app.route('/recent/')
+app.route('/recent')
 	.get(function(req, res){
 	imgAbs.getSearch()
 		.then(function(val){
@@ -32,7 +32,7 @@ app.route('/recent/')
 		})
 	});
 
-app.route('/:term')
+app.route('/imagesearch/:term')
 	.get(function(req, res){
 		var offset = req.query.offset || 0;
 	if (req.params.term != undefined){
