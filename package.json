@@ -1,0 +1,22 @@
+{
+  "name": "imageabstraction",
+  "version": "1.0.0",
+  "description": "FCC Image Search Abstraction Layer",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "tdtd",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "express": "^4.13.4",
+    "node-bing-api": "^2.4.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.1.0"
+  }
+}
